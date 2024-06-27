@@ -3,46 +3,57 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* ------------LAYOUT */
 
 .container{
     width: 1200px;
     margin: 50px auto;
-    background-color: aqua;
+    background-color: rgb(10, 116, 98);
 
 }
-
+.chessboard {
+    margin: 50px 0;
+     display: flex;
+    flex-wrap: wrap;
+}
 .square {
     width: 120px;
     height: 120px;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     font-size: 26px; 
-    background-color: blue;   
-
+    text-align: center;
+    background-color: rgb(19, 101, 224);
+    color: rgb(0, 0, 0);
+        margin: 5px;
 }
 
-.cheesboard {
-    margin: 50px auto;
-    display: flex;
-        flex-wrap: wrap;
-}
-.multiplo_3{
+
+.mu-3-red{
     background-color: red;
     color: white;
 
 }
-.multiplo_5{
+.mu-5-yel{
     background-color: yellow;
     color: black;
 
 }
-.multiplo_3-5{
+.blue{
 
-    background-color: green;
+    background-color: rgb(19, 101, 224);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+h1 {
     color: white;
+    font-size: 90px;
+    text-align: center;
+    margin: 10px;
 }
 
