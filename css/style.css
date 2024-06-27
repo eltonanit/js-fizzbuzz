@@ -1,0 +1,48 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------LAYOUT */
+
+.container{
+    width: 1200px;
+    margin: 50px auto;
+    background-color: aqua;
+
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 26px; 
+    background-color: blue;   
+
+}
+
+.cheesboard {
+    margin: 50px auto;
+    display: flex;
+        flex-wrap: wrap;
+}
+.multiplo_3{
+    background-color: red;
+    color: white;
+
+}
+.multiplo_5{
+    background-color: yellow;
+    color: black;
+
+}
+.multiplo_3-5{
+
+    background-color: green;
+    color: white;
+}
+
