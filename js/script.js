@@ -82,18 +82,18 @@ for (let i = 1; i <= 100; i++)  {
 
     if (i % 3 === 0 && i % 5 === 0) {
             square.innerText = `FizzBuzz `;
-            square.classList.add('mu-3-red');
+            square.classList.add('fizz-buzz');
     } 
     else if (i % 3 === 0) {
 
         square.innerText = `Fizz `;
-        square.classList.add('mu-3-red');
+        square.classList.add('fizz');
 
     }
     else if (i % 5 === 0) {
 
         square.innerText = `Buzz `;
-        square.classList.add('mu-3-red');
+        square.classList.add('buzz');
 
     }
     else {

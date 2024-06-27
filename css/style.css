@@ -9,9 +9,9 @@ body{
 /* ------------LAYOUT */
 
 .container{
-    width: 1200px;
+    width: 900px;
     margin: 50px auto;
-    background-color: rgb(10, 116, 98);
+    background-color:#083b4c ;
 
 }
 .chessboard {
@@ -20,36 +20,34 @@ body{
     flex-wrap: wrap;
 }
 .square {
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 26px; 
     text-align: center;
-    background-color: rgb(19, 101, 224);
+    background-color:#1389b1;
     color: rgb(0, 0, 0);
         margin: 5px;
 }
 
 
-.mu-3-red{
-    background-color: red;
+.fizz{
+    background-color:#0bd6a2;
     color: white;
 
 }
-.mu-5-yel{
-    background-color: yellow;
+.buzz{
+    background-color:#ffd167;
     color: black;
 
 }
-.blue{
+.fizz-buzz {
+    background-color:#f14670;
+    color: black;
 
-    background-color: rgb(19, 101, 224);
-    color: rgb(0, 0, 0);
-    margin: 5px;
 }
-
 h1 {
     color: white;
     font-size: 90px;
